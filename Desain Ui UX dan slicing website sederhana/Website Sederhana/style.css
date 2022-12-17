@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 1512px;
+    background-color: white;
+}
+
+.container{
+    width: 1210px;
+    margin:0 auto;
+    background: #FFF8E1;
+}
+
+.header{
+    padding-left: 75px;
+}
+
+.header h1{
+    font-weight: 700px;
+    font-size: 15px;
+    padding-top: 39px;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    padding-top: 31px;
+    padding-right: 25px;
+    
+}
+
+.header a{
+    color:#C0DEFF;
+    text-decoration: none;
+}
+
+.header a:hover{
+    color:#ADA2FF
+}
+
+.hero{
+    background-image: url(gunung.jpg);
+    height: 482px;
+    margin-top: 49PX;
+    background-size: cover;
+    background-position: 0 -190px;
+}
+
+.content{
+    box-sizing: border-box;
+    padding-left: 75px;
+    overflow: auto;
+}
+
+.main{
+    width: 800px;
+    float: left;
+}
+
+.main p{
+    font-size: 15px;
+}
+
+
+.main h3{
+    padding-top: 44px;
+}
+
+.main h5{
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.sidebar{
+    width: 300px;
+    float: right;
+    
+}
+
+.sidebar h3{
+    padding-top: 44px;
+    padding-bottom: 4px;
+}
+
+img{
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin-right: 8px;
+}
+
+.sidebar p{
+    padding-right: 5px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 20px;
+}
+
+.footer h5{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
